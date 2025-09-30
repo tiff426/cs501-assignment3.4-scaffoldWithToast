@@ -92,7 +92,6 @@ fun MainScaffold() {
                     // liek what we did with animatescrolltoitem with scoping/coroutines
                     snackbarScope.launch{snackbarHostState.showSnackbar("Feedback received!", actionLabel = "Dismiss")}
                 },
-                // Optional: Change the FAB's shape, color, etc.
                 shape = CircleShape,
                 containerColor = MaterialTheme.colorScheme.secondary,
                 contentColor = MaterialTheme.colorScheme.onSecondary
